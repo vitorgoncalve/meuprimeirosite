@@ -1,5 +1,5 @@
 body{
-    background-color: #ffe714;
+    background-color: #14b5ffe5;
 
 }
 
@@ -8,7 +8,7 @@ p{
 }
 
 h1,h2{
-    color: aqua;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 figure{
@@ -17,4 +17,11 @@ figure{
 .container{
     width:70% ;
     margin: auto;
+
 }
+        .img_topo{
+            width: 100%;
+        }
+        .img_corpo{
+            width: 70%;
+        }
