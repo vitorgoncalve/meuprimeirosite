@@ -7,14 +7,14 @@ body{
 div {
     width: 320px;
     padding: 198px;
-    border: 5px solid rgba(1, 103, 159, 0.56);
+    border: 5px solid rgb(34, 130, 98);
     margin: 0%;
 }
 
  
 
 p{
-    color: #060606;
+    color: #000000c2;
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
