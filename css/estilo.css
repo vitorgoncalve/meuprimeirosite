@@ -14,7 +14,7 @@ div {
  
 
 p{
-    color: #e8e6e6;
+    color: #000000;
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -44,7 +44,21 @@ figure{
         }
         .img_corpo{
             width: 80%;
-         }
+      }
+      
+a:link, a:visited {
+  background-color: #000000;
+  color: rgba(21, 0, 249, 0.616);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(70, 38, 38);
+}
+
         
          
          
