@@ -5,12 +5,19 @@ body{
     
 }
 
-.menu{
+.menu, footer{
     background-color: rgba(17, 248, 240, 0.3);
     padding: 2%;
 }
 
 
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
+}
+  
  
 
 p{
