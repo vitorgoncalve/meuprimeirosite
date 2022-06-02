@@ -1,8 +1,9 @@
+  html {
+      scroll-behavior: smooth;
+  }
+
 body{
-    background-color: #fffffff6;
-     
-    
-    
+    background-color: #fffffff6; 
 }
 
 .menu, footer{
@@ -17,8 +18,26 @@ body{
     text-align: center;
     font-size: 1.3em;
 }
+
+.itens_menu a:link, a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.itens_menu a:active{
+    color: #000000;
+
+}
+
+.itens_menu a:hover{
+    background-color: rgba(100, 149, 237, 0.3);
+    padding: 0.5%;
+}
   
- 
+    p{
+        text-align: justify;
+    }
 
 p{
     color: #000000;
@@ -37,6 +56,7 @@ h1,h2{
     text-decoration-color: rgb(229, 255, 0);
     text-shadow: 2px 2px 5px red;
 }
+
 figure{
 
     text-align: center;
@@ -54,6 +74,8 @@ figure{
         }
         .img_corpo{
             width: 80%;
+            margin-top: 2%;
+            margin-bottom: 2%; 
       }
       
 a:link, a:visited {
