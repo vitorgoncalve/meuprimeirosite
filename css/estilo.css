@@ -32,7 +32,7 @@ body{
 
 .itens_menu a:hover{
     background-color: rgba(100, 149, 237, 0.3);
-    padding: 0.5%;
+    padding: 0.8%;
 }
   
     p{
@@ -48,6 +48,10 @@ p{
     margin-left: 80px;
 
 }
+    h1{
+        font-size: 2em;
+    }
+
 
 h1,h2{
     color: rgb(255, 0, 0);
@@ -73,7 +77,7 @@ figure{
             width: 100%;
         }
         .img_corpo{
-            width: 80%;
+            width: 110%;
             margin-top: 2%;
             margin-bottom: 2%; 
       }
@@ -91,6 +95,30 @@ a:hover, a:active {
   background-color: rgb(70, 38, 38);
 }
 
+.botao{
+    margin: 1%;
+    width: 100px;
+    height: 30px;
+    padding: 2%;
+    margin: auto;
+}
+.botao:hover{
+    background-color:#FFDEAD;
+  }
+  .botao a:link, .botao a:visited{
+    color:#8B4513;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .botao p{
+    text-align: center;
+  }
+  section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+   
 
          
          
