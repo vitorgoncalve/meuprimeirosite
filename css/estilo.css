@@ -115,6 +115,13 @@ a:hover, a:active {
     margin-top: 2%;
     margin-bottom: 2%;
   }
+  .direita{
+    float: right;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+  }
   
    
 
