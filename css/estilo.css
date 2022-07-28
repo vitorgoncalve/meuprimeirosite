@@ -1,4 +1,8 @@
-  html {
+@font-face {
+  font-family: 'Uchen';
+  src: url(../);
+}
+html {
       scroll-behavior: smooth;
   }
 
@@ -37,6 +41,7 @@ body{
   
     p{
         text-align: justify;
+        font-family: 'Alfa Slab One', cursive;
     }
 
 p{
@@ -50,6 +55,7 @@ p{
 }
     h1{
         font-size: 2em;
+        font-family:'AlfaSlabOne-Regular', cursive
     }
 
 
@@ -59,6 +65,7 @@ h1,h2{
     text-decoration-line: overline;
     text-decoration-color: rgb(229, 255, 0);
     text-shadow: 2px 2px 5px red;
+    
 }
 
 figure{
