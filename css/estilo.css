@@ -145,5 +145,17 @@ a:hover, a:active {
     border: 2px dashed #8B4513;
     padding: 1%;
   }
+         th{
+           font-family: 1.5em;
+         }
          
+          td:first-child{
+            width: 40%;
+          }
+           td:first-child+ td{
+             width: 60%
+           }
+           audio{
+             width: 85%;
+           }
          
