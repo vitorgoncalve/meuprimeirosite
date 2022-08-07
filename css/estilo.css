@@ -11,7 +11,7 @@ body{
 }
 
 .menu, footer{
-    background-color: rgba(17, 248, 240, 0.3);
+    background-color: rgba(0, 57, 214, 0.658);
     padding: 2%;
 }
 
@@ -24,13 +24,13 @@ body{
 }
 
 .itens_menu a:link, a:visited {
-    color: antiquewhite;
+    color: rgb(160, 12, 12);
     text-decoration: none;
     font-weight: bolder;
 }
 
 .itens_menu a:active{
-    color: #000000;
+    color: #dad5d5;
 
 }
 
@@ -74,22 +74,31 @@ figure{
 }
   
 .container{
-    width:70% ;
+    width:70%;
     margin: auto;
-    border-radius: 5px;
        }
+
         .img_topo{
             width: 100%;
        }
         .img_corpo{
-        width: 110%;
+        width: 60%;
         margin-top: 2%;
         margin-bottom: 2%; 
       }
+      footer{
+        padding: 2%;
+        margin-top: 2%;
+    }
+    footer p {
+      text-align: center;
+      font-size: 1em;
+    }
+    
       
 a:link, a:visited {
-  background-color: #000000;
-  color: rgba(0, 241, 249, 0.616);
+ 
+  color: rgb(232, 249, 0);
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -139,6 +148,7 @@ a:hover, a:active {
   table{
     width: 100%;
     border-collapse: collapse;
+    text-align: center;
   }
   
   td,th{
