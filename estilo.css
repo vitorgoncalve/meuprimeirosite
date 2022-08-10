@@ -6,9 +6,16 @@ html {
       scroll-behavior: smooth;
   }
 
-body{
-    background-color: #fffffff6; 
+    body{
+      background-image: url(../img/papel\ de\ parede2.jpg);
+      background-repeat: no-repeat;
+      letter-spacing: 2.3px;
+      background-size: cover;
+      background-attachment: fixed;
+     text-align: center;
+     text-shadow: 1px 1px 2px #7e7e7e;
 }
+
 
 
 .menu, footer{
@@ -101,10 +108,7 @@ figure{
         margin-top: 2%;
         margin-bottom: 2%; 
       }
-        img{
-          width: 15%;
-          height: 15%;
-        }
+       
       footer{
         padding: 2%;
         margin-top: 2%;
