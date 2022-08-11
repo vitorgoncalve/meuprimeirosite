@@ -177,13 +177,18 @@ a:hover, a:active {
    
 
   }
+  th,td{
+    padding: 1%;
+    border: 2px solid;
+
+  }
   
   
   table,td,th{
     border: 1px dashed;
     padding: 1%;
   }
-  tr:hover {background-color: rgb(255, 60, 0);}
+  tr:hover {background-color: rgb(251, 255, 0);}
 
          th{
            font-family: 1.5em;
