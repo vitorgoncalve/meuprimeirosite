@@ -143,7 +143,7 @@ figure{
        }
 
         .img_topo{
-            width: 100%;
+            width: 50%;
        }
         .img_corpo{
         width: 60%;
@@ -276,4 +276,13 @@ a:hover, a:active {
          .img_bola2{
           width: 10%;
          }
+         .img_topo {
+          height: 40%;
+          width: 50%;
+      }
+     .mudança {
+        background-color: rgba(63, 63, 63, 0)
+        overflow: auto;
+        white-space: nowrap;
+    }
         
