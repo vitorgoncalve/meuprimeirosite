@@ -92,8 +92,9 @@ ul li{
 
 .itens_menu a:hover{
     background-color: #836FFF
-    padding: 0.8%;
+    padding 0.8%;
 }
+
     .center{
   position: absolute;
       
@@ -140,9 +141,22 @@ figure{
 
   
 .container{
-    width:70%;
+    width:80%;
     margin: auto;
-    background-color: #252424;;
+    background-color: #dcdcdc83;
+    
+       }
+       .container2{
+        padding: 3%;
+        background-color: #dcdcdc83;
+       }
+       .container3{
+        padding: 2%;
+        background-image: url(../img/animação\ \ 277.gif);
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: auto;
+
        }
 
         .img_topo{
@@ -248,10 +262,7 @@ a:hover, a:active {
     border: 2px solid;
 
   }
-  .container{
-    background-color: #7e848d;
-
-  }
+ 
   
   table,td,th{
     border: 1px dashed;
@@ -290,11 +301,7 @@ a:hover, a:active {
       .img_corpo{
         width: 70%;
       }
-     .mudança {
-        background-color: rgba(63, 63, 63, 0)
-        overflow: auto;
-        white-space: nowrap;
-    }
+   
         .pitoco{
           width: 95%;
         }
