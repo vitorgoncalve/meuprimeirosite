@@ -1,49 +1,88 @@
-@font-face {
-  font-family: 'Uchen';
-  src: url(../);
-}
+
 html {
       scroll-behavior: smooth;
   }
 
     body{
-      background-color: #666666;
+      background-image: url(../img/eeeeeeeeeeeeeeeeeeeeee.jpg);
       background-repeat: no-repeat;
-      letter-spacing: 2.3px;
+      letter-spacing: 1px;
       background-size: cover;
+      letter-spacing: 2.3px;
       background-attachment: fixed;
-     text-align: center;
+      text-align: fixed;
      text-shadow: 1px 1px 2px #7e7e7e;
+     font-family: "Audiowide", sans-serif;
 }
-
-
 
 .menu, footer{
-    background-color: rgba(0, 57, 214, 0.658);
+  background-color:  #bdb5b583;
     padding: 2%;
 }
+.menu{
+  padding: 0.8%;
+}
+
 
 li {
   display: inline;
 }
 ul {
-  background-color: #666666;
+  background-color: #3a89c9;
 }
-
+ul li{
+ 
+  font-size: 1.5em;
+  padding: 1%;
+}
 
 
 .itens_menu{
     padding-top: 1%;
-    line-height: 1.5;
     text-align: center;
+    line-height: 1.5;
     font-size: 1.3em;
+    padding-bottom: 1%;
+    padding: 1%;
+}
+  .itens_menu7{
+    padding-top: 1%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.3em;
+    padding-bottom: 1%;
+    padding: 1%;
+  }
+.itens_menu ul {
+  list-style-type: none;
+  margin: 2%;
+  padding: 1;
+ 
+}
+.itens_menu li{
+  display: inline;
+  font-size: 1.3em;
+  padding: 0.3%;
+  
 }
 
-.itens_menu a:link, a:visited {
-    color: rgb(245, 4, 4);
+.itens_menu a:visited,  a:link {
+    color: rgb(229, 255, 0);
     text-decoration: none;
     font-weight: bolder;
+    text-shadow: 2px 2px black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
+
+.logo{
+  display: inline;
+  padding: 0.01%;
+  padding-top: 1%;
+  float: left;
+}
+
 
 .itens_menu a:active{
     color: #dad5d5;
@@ -51,77 +90,143 @@ ul {
 }
 
 .itens_menu a:hover{
-    background-color: rgba(100, 149, 237, 0.3);
-    padding: 0.8%;
+    background-color: #2004da
+    padding 0.8%;
 }
+
     .center{
   position: absolute;
-      
-      margin: 2%;
+       margin: 2%;
     }
-    p{
-        text-align: justify;
-        font-family: 'Alfa Slab One', cursive;
-    }
+    
 
-p{
-    color: #000000;
-    font-size: 1.5em;
+    
+    
+.como{
+    font-size: 1.75em;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 80px;
+    letter-spacing: 2.3px;
+    text-indent: 50px;
+    font-family: "Audiowide", sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.como{
+  color: rgb(226, 214, 214);
+
+}
+p.thick {
+  font-weight: bold;
+}
+.sol{
+  background-color: rgb(0, 0, 0);
+    padding-top: 1%;
+
 }
 
-    h1{
-        font-size: 2em;
-        font-family:'AlfaSlabOne-Regular', cursive
-    }
-
-
+ 
 h1,h2{
-    color: rgb(255, 0, 0);
+    color: rgb(233, 8, 8);
     text-align: center;
-    text-decoration-line: overline;
-    text-decoration-color: rgb(229, 255, 0);
-    text-shadow: 2px 2px 5px red;
-    
+     margin-bottom: 2%;
 }
+
 h1 {
-  text-shadow: 2px 2px 5px red;
+  background-color: rgba(0, 0, 0, 0.60);;
+text-shadow: 2px 2px 5px rgb(200, 255, 0);
+font-size: 2em;
+}
+
+h4{
+  text-align: center;
+  color: blueviolet;
 }
 figure{
-
-    text-align: center;
+  text-align: center;
+  padding: 1%;
 }
-  
+.como{
+ padding-top: 1%;
+background-color:  rgba(0, 0, 0, 0.60);
+}
+  .float{
+   width: 10%;
+   float: right;
+   margin: 1%
+  }
+
 .container{
-    width:70%;
-    margin: auto;
+  text-align: center;
+  width:80%;
+  margin: auto;
+  padding: 1%;
+    
+       }
+       .container2{
+        padding: 3%;
+        background-color: #dcdcdc83;
+       }
+       .container3{
+        padding: 2%;
+        background-image: url(../img/animação\ \ 277.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 80%;
+        margin: auto;
        }
 
-        .img_topo{
-            width: 100%;
+      .img_topo{
+          height: 40%;
+         
+       }
+       .nada{
+        width: 34%;
+        height: 30% ; 
+       }
+       .tudo{
+        width: 40%;
+        height: 30% ; 
+       }
+       .opa{
+        width: 34%;
+        height: 30% ; 
+       }
+       .isso{
+        width: 10%;
+       }
+       div.scrollmenu {
+        background-color: rgba(22, 10, 6, 0.3);
+        overflow: auto;
+        white-space: nowrap;
        }
         .img_corpo{
         width: 60%;
         margin-top: 2%;
         margin-bottom: 2%; 
-      }
+       }
        
       footer{
-        padding: 2%;
-        margin-top: 2%;
-    }
-    footer p {
+        padding-top: 1%;
+        margin-top: 1%;
+        padding-bottom: 1%;
+      background-color:  rgba(22, 10, 6, 0.3);
+       }
+    footer p{
       text-align: center;
       font-size: 1em;
-    }
+
+       }
     
       
 a:link, a:visited {
  
-  color: rgb(232, 249, 0);
+  color: rgb(253, 217, 14);
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -133,54 +238,71 @@ a:hover, a:active {
 }
 
 .botao{
-    margin: 1%;
-    width: 100px;
-    height: 30px;
-    padding: 2%;
-    margin: auto;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 1%;
+  width: 100px;
+  border-radius: 8px;
 }
-.botao:hover{
-    background-color:#FFDEAD;
-  }
+
   .botao a:link, .botao a:visited{
-    color:#8B4513;
+    color:#f80000;
     text-decoration: none;
     font-weight: bolder;
+    box-shadow: -2px 3px #222, -4px 6px #000;
   }
   .botao p{
     text-align: center;
   }
+  
+
+  .botton{
+    font-size: 30px;
+    border: 2px solid #7e7e7e;
+    color: rgb(0, 38, 255);
+    background-color: #444;
+    box-shadow: -2px 3px #222, -4px 6px #000;
+   }
+ 
+
   section{
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  .direita{
-    float: right;
-    margin-left: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 40%;
-  }
-  .esquerda{
-    float: left;
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 40%;
-  }
+  
+ 
   table{
     width: 100%;
     border-collapse: collapse;
     text-align: center;
+   
+
   }
+  .th,td{
+    padding: 1%;
+    border: 2px solid;
+
+  }
+ 
   
-  td,th{
-    border: 2px dashed #8B4513;
+  table,td,th{
+    border: 1px dashed;
     padding: 1%;
   }
+  tr:hover {background-color: rgb(255, 43, 6);}
+
          th{
            font-family: 1.5em;
          }
+          table,p{
+            color: rgb(0, 0, 0);
+          }
          
           td:first-child{
             width: 40%;
@@ -191,4 +313,28 @@ a:hover, a:active {
            audio{
              width: 85%;
            }
-         
+
+         .gif{
+          width: 5%;
+             
+         }
+         .img_bola2{
+          width: 10%;
+         }
+         .img_topo {
+          width: 50%;    
+         }
+      .img_corpo{
+        width: 70%;
+       }
+   
+        .pitoco{
+          width: 95%;
+        }
+        .mestre{
+          width: 20%;
+        }
+       .correndo{
+        width: 95%;
+       }
+        
