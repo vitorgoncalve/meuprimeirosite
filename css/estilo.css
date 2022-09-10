@@ -2,7 +2,6 @@
 html {
       scroll-behavior: smooth;
   }
-
     body{
       background-image: url(../img/eeeeeeeeeeeeeeeeeeeeee.jpg);
       background-repeat: no-repeat;
@@ -39,7 +38,9 @@ u, footer{
   top: 0;
 }
 header{
-  background-color: rgba(0, 0, 0, 0.60);;
+  background: linear-gradient(45deg, white, #6959CD,#808080, #eb2a08, #ffff00d2, white);
+  background-size: 300% 300%;
+   animation: colors 5s infinite ease;
   padding: 2%;
   font-family: 'Gloria Hallelujah', cursive;  
   display: flex;
@@ -47,6 +48,17 @@ header{
   align-items: center;
   position: fixed;
   width: 100%;
+}
+@keyframes colors{
+    0%{
+background-position: 0% 50%;
+    }
+    50%{
+background-position: 100% 50%;
+    }
+    100%{
+background-position: 0% 50% ;
+    }
 }
 .itens_menu{
   padding-top: 1%;
@@ -209,10 +221,10 @@ background-color:  rgba(0, 0, 0, 0.60);
         width: 10%;
        }
        div.scrollmenu {
-        background-color: rgba(22, 10, 6, 0.3);
         overflow: auto;
         white-space: nowrap;
        }
+     
         .img_corpo{
         width: 60%;
         margin-top: 2%;
