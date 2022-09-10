@@ -14,38 +14,51 @@ html {
      text-shadow: 1px 1px 2px #7e7e7e;
      font-family: "Audiowide", sans-serif;
 }
-
-.menu, footer{
+u, footer{
   background-color:  #bdb5b583;
     padding: 2%;
 }
+.logos{
+  width: 30%;
+  text-align: left;
+}
+
 .menu{
   padding: 0.8%;
+  width: 100%;
 }
+.itens_menu li{
 
-
-li {
-  display: inline;
+  font-size: 1.3em;
+  line-height: 1.5;
 }
-ul {
-  background-color: #3a89c9;
+.fixo{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
 }
-ul li{
- 
-  font-size: 1.5em;
-  padding: 1%;
+header{
+  background-color: rgba(0, 0, 0, 0.60);;
+  padding: 2%;
+  font-family: 'Gloria Hallelujah', cursive;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
 }
-
-
 .itens_menu{
-    padding-top: 1%;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 1.3em;
-    padding-bottom: 1%;
-    padding: 1%;
+  padding-top: 1%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.3em;
+  padding-bottom: 1%;
+  padding: 1%;
+  width: 100%;
 }
-  .itens_menu7{
+
+.itens_menu7{
     padding-top: 1%;
     text-align: center;
     line-height: 1.5;
@@ -53,18 +66,18 @@ ul li{
     padding-bottom: 1%;
     padding: 1%;
   }
-.itens_menu ul {
-  list-style-type: none;
-  margin: 2%;
-  padding: 1;
- 
-}
-.itens_menu li{
-  display: inline;
-  font-size: 1.3em;
-  padding: 0.3%;
-  
-}
+  .itens_menu ul {
+    list-style-type: none;
+    margin: 2%;
+    padding: 1;
+   
+  }
+  .itens_menu li{
+    display: inline;
+    font-size: 1.3em;
+    padding: 0.3%;
+    
+  }
 
 .itens_menu a:visited,  a:link {
     color: rgb(229, 255, 0);
@@ -83,7 +96,6 @@ ul li{
   float: left;
 }
 
-
 .itens_menu a:active{
     color: #dad5d5;
 
@@ -98,9 +110,6 @@ ul li{
   position: absolute;
        margin: 2%;
     }
-    
-
-    
     
 .como{
     font-size: 1.75em;
@@ -174,7 +183,6 @@ background-color:  rgba(0, 0, 0, 0.60);
        }
        .container3{
         padding: 2%;
-        background-image: url(../img/animação\ \ 277.gif);
         background-repeat: no-repeat;
         background-position: center;
         width: 80%;
@@ -290,7 +298,6 @@ a:hover, a:active {
 
   }
  
-  
   table,td,th{
     border: 1px dashed;
     padding: 1%;
@@ -337,4 +344,6 @@ a:hover, a:active {
        .correndo{
         width: 95%;
        }
-        
+   .instagram{
+    width: 20%;
+   }
