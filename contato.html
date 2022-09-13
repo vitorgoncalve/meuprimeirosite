@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Contato</title>
+    <link rel="icon" href="img/Foto_de_Pietro_Enrico-removebg-preview.png" type="image/x-icon">
 </head>
-<body>
-    <header>
-        <nav class="menu">
+<body id="home">
+    <header class="fixo">    
             <div class="logo">
-                <h1>Contato</h1> 
+                <img class="img_logo" src="img/Foto_de_Pietro_Enrico-removebg-preview.png" alt="">
             </div>
-            <div class="itens_Menu7">
+            <nav class="itens_menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#bio">Biografia</a></li>
-                    <li><a href="index.html#mais">Saiba Mais</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="musica.html">Ligas</a></li>
-                    <li><a href="pokedex.html">pokedex</a></li>
+                <li><a href="#sobre">sobre</a>
+                <li><a href="#o que é">jornada</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="musica.html">Ligas</a></li>
+                <li><a href="pokedex.html">pokedex</a></li>
                 </ul>
-            </div>  
-        </nav> 
+            </nav>
     </header>
-    <div class="container">
-        
+    <div class="container descer">
         <section>
+            <figure class="font-figure">
+                <img class="fonts" src="img/Font-Contato.png" alt="">
+            </figure>
             <div class="form">
-                <form action="#">
+                <form action="https://api.sheetmonkey.io/form/4H5aooJsC34wErZyGifrNB" method="post">
                     <div class="row">
                         <div class="col-25">
-                            <label for="#">Nome</label>
+                            <label for="#">Nome Completo</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" name="#" id="#" placeholder="Nome Completo">
+                            <input type="text" name="Nome" id="#" placeholder="Nome Completo">
                         </div>
                     </div>
                     <div class="row">
@@ -44,7 +45,7 @@
                             <label for="#">Telefone</label>
                         </div>
                         <div class="col-75">
-                            <input type="tel" name="#" id="#" placeholder="(99) 99999-9999">
+                            <input type="tel" name="Telefone" id="#" placeholder="(99) 99999-9999">
                         </div>
                     </div>
                     <div class="row">
@@ -52,7 +53,7 @@
                             <label for="#">E-mail</label>
                         </div>
                         <div class="col-75">
-                            <input type="email" name="#" id="#" placeholder="email@email.com">
+                            <input type="email" name="E-mail" id="#" placeholder="email@email.com">
                         </div>
                     </div>
                     <div class="row">
@@ -60,7 +61,7 @@
                             <label for="#">Estado</label>                            
                         </div>
                         <div class="col-75">
-                            <select name="#" id="#">
+                            <select name="Estado" id="#">
                                 <option value="#">SP</option>
                                 <option value="#">RJ</option>
                                 <option value="#">BA</option>
@@ -71,27 +72,38 @@
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label for="#">Mensagem</label> 
+                            <label for="#">Data</label> 
                         </div>
                         <div class="col-75">
-                            <textarea name="#" id="#" cols="50" rows="20"></textarea>
+                            <input type="date" name="Data" id="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label for="#">Data</label> 
+                            <label for="#">Mensagems</label> 
                         </div>
                         <div class="col-75">
-                            <input type="date" name="" id="">
+                            <textarea name="Mensagem" id="" cols="50" rows="20"></textarea>
                         </div>
-                    </div>                    
+                    </div>                               
                     <div class="row">
                         <input type="submit" value="Enviar">                        
                     </div>
                 </form>
             </div>
+                
+        </section>
+
+        <figure>
+            <a href="#home"><img class="voltar" src="img/voltarparacima.png" alt=""></a>
+        </figure>
+
+    </div>
     <footer>
-        <p>Desenvolvido por Vitor</p>
-    </footer>    
+        <p style="padding-right: 4%; padding-top: 0.2%; padding-bottom: 0.2%;">Desenvolvido por Vitor Antonio</p>
+        <figure class="icon">
+            <a href="https://www.instagram.com/vitorantonio___/" target="_blank" rel="noopener noreferrer"><img class="instagram" src="img/logo_istagram_55-removebg-preview.png"></a>
+        </figure>
+    </footer>
 </body>
 </html>

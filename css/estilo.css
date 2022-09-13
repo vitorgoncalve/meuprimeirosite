@@ -13,23 +13,58 @@ html {
      text-shadow: 1px 1px 2px #7e7e7e;
      font-family: "Audiowide", sans-serif;
 }
-u, footer{
-  background-color:  #bdb5b583;
-    padding: 2%;
-}
-.logos{
-  width: 30%;
-  text-align: left;
+
+.img_logo{
+  width: 20%;
 }
 
+.logo {
+  width: 20%;
+  text-align: right;
+  margin-right: 100%;
+  nav-down: 3%;
+}
 .menu{
-  padding: 0.8%;
-  width: 100%;
-}
-.itens_menu li{
 
+  width: 100%;
+  position: relative;
+}
+.itens_menu{
+  
+  text-align: center;
+  width: 100%;
+ 
+}
+
+.itens_menu li{
   font-size: 1.3em;
-  line-height: 1.5;
+  padding: 1%;
+  margin: 0.5%;
+  margin-bottom: 1%;
+}
+.banner {
+  width: 100%;
+  margin-right: 1%;
+  padding-right: 1%;
+}
+.row{
+  padding: 1%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form{
+  box-sizing: border-box;
+}  
+.form{
+  border-radius: 9px;
+  padding: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .fixo{
   position: fixed;
@@ -37,8 +72,15 @@ u, footer{
   z-index: 1000;
   top: 0;
 }
+
+header {
+  flex-direction: row;
+  padding: 0.5%;
+}    
+
 header{
-  background: linear-gradient(45deg, white, #6959CD,#808080, #eb2a08, #ffff00d2, white);
+
+  background: linear-gradient(45deg, white, #6959CD, #eb2a08, #6523b6, white);
   background-size: 300% 300%;
    animation: colors 5s infinite ease;
   padding: 2%;
@@ -48,7 +90,15 @@ header{
   align-items: center;
   position: fixed;
   width: 100%;
+
 }
+.linha{
+ width: 50%;
+}
+.tamanho{
+  width: 50%;
+}
+
 @keyframes colors{
     0%{
 background-position: 0% 50%;
@@ -60,28 +110,16 @@ background-position: 100% 50%;
 background-position: 0% 50% ;
     }
 }
-.itens_menu{
-  padding-top: 1%;
-  text-align: center;
-  line-height: 1.5;
-  font-size: 1.3em;
-  padding-bottom: 1%;
-  padding: 1%;
-  width: 100%;
-}
 
-.itens_menu7{
-    padding-top: 1%;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 1.3em;
-    padding-bottom: 1%;
+
+  ul li{
+    font-size: 1.5em;
     padding: 1%;
-  }
+ 
+}
   .itens_menu ul {
     list-style-type: none;
-    margin: 2%;
-    padding: 1;
+  
    
   }
   .itens_menu li{
@@ -99,13 +137,6 @@ background-position: 0% 50% ;
     display: block;
     text-align: center;
     padding: 14px 16px;
-}
-
-.logo{
-  display: inline;
-  padding: 0.01%;
-  padding-top: 1%;
-  float: left;
 }
 
 .itens_menu a:active{
@@ -151,7 +182,6 @@ p.thick {
 
 }
 
- 
 h1,h2{
     color: rgb(233, 8, 8);
     text-align: center;
@@ -194,11 +224,10 @@ background-color:  rgba(0, 0, 0, 0.60);
         background-color: #dcdcdc83;
        }
        .container3{
-        padding: 2%;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 80%;
+        text-align: center;
+        width:80%;
         margin: auto;
+        padding: 1%;
        }
 
       .img_topo{
@@ -232,10 +261,10 @@ background-color:  rgba(0, 0, 0, 0.60);
        }
        
       footer{
+        background-image: url("../img/fundoroxo.jpg");
         padding-top: 1%;
         margin-top: 1%;
         padding-bottom: 1%;
-      background-color:  rgba(22, 10, 6, 0.3);
        }
     footer p{
       text-align: center;
@@ -335,8 +364,8 @@ a:hover, a:active {
 
          .gif{
           width: 5%;
-             
          }
+         
          .img_bola2{
           width: 10%;
          }
@@ -359,3 +388,6 @@ a:hover, a:active {
    .instagram{
     width: 20%;
    }
+.video{
+  width: 30%;
+}
