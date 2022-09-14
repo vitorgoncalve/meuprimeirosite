@@ -66,6 +66,47 @@ form{
   margin-left: 10%;
   margin-right: 10%;
 }
+input[type=text],input[type=tel],input[type=email], select, textarea {
+  width: 83%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  resize: vertical;
+  margin-top: 2%;
+}
+
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 1%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  font-weight: bolder;
+}
 .fixo{
   position: fixed;
   width: 100%;
