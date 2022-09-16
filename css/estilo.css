@@ -13,117 +13,10 @@ html {
      text-shadow: 1px 1px 2px #7e7e7e;
      font-family: "Audiowide", sans-serif;
 }
-
-.img_logo{
-  width: 20%;
-}
-
-.logo {
-  width: 20%;
-  text-align: right;
-  margin-right: 100%;
-  nav-down: 3%;
-}
-.menu{
-
-  width: 100%;
-  position: relative;
-}
-.itens_menu{
-  
-  text-align: center;
-  width: 100%;
- 
-}
-
-.itens_menu li{
-  font-size: 1.3em;
-  padding: 1%;
-  margin: 0.5%;
-  margin-bottom: 1%;
-}
-.banner {
-  width: 100%;
-  margin-right: 1%;
-  padding-right: 1%;
-}
-.row{
-  padding: 1%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-form{
-  box-sizing: border-box;
-}  
-.form{
-  border-radius: 9px;
-  padding: 3%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-input[type=text],input[type=tel],input[type=email], select, textarea {
-  width: 83%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  resize: vertical;
-  margin-top: 2%;
-}
-
-label{
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-  margin-top: 1%;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-  font-weight: bolder;
-}
-.fixo{
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  top: 0;
-}
-
-header {
-  flex-direction: row;
-  padding: 0.5%;
-}    
-
 header{
-
   background: linear-gradient(45deg, white, #6959CD, #eb2a08, #6523b6, white);
   background-size: 300% 300%;
-   animation: colors 5s infinite ease;
+  animation: colors 5s infinite ease;
   padding: 2%;
   font-family: 'Gloria Hallelujah', cursive;  
   display: flex;
@@ -131,304 +24,387 @@ header{
   align-items: center;
   position: fixed;
   width: 100%;
-
-}
-.linha{
- width: 50%;
-}
-.tamanho{
-  width: 50%;
 }
 
 @keyframes colors{
-    0%{
+  0%{
 background-position: 0% 50%;
-    }
-    50%{
+  }
+  50%{
 background-position: 100% 50%;
-    }
-    100%{
+  }
+  100%{
 background-position: 0% 50% ;
-    }
+  }
 }
+.nada{
+  width: 34%;
+  height: 30% ; 
+ }
+ .tudo{
+  width: 40%;
+  height: 30% ; 
+ }
+ .opa{
+  width: 34%;
+  height: 30% ; 
+ }
+ .isso{
+  width: 10%;
+ }
+.tamanho{
+  width: 50%;
+}
+div.scrollmenu {
+  background-color: rgba(22, 10, 6, 0.3);
+  overflow: auto;
+  min-width: 700px;
+  white-space: nowrap;
+ }
 
-
-  ul li{
-    font-size: 1.5em;
-    padding: 1%;
+.fixo{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+footer{
+  background-image: url("../img/fundoroxo.jpg");
+  padding-top: 1%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+ }
+ .itens_menu{
+  text-align: center;
+ }
  
-}
-  .itens_menu ul {
-    list-style-type: none;
-  
-   
-  }
-  .itens_menu li{
-    display: inline;
-    font-size: 1.3em;
-    padding: 0.3%;
-    
-  }
-
-.itens_menu a:visited,  a:link {
-    color: rgb(229, 255, 0);
-    text-decoration: none;
-    font-weight: bolder;
-    text-shadow: 2px 2px black;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
+ .itens_menu li{
+   font-size: 1.1em;
+   line-height: 1.5;
+ }
+ .itens_menu a:visited,  a:link {
+  color: rgb(229, 255, 0);
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 .itens_menu a:active{
-    color: #dad5d5;
+  color: #dad5d5;
 
 }
 
 .itens_menu a:hover{
-    background-color: #2004da
-    padding 0.8%;
+  background-color: #2004da
+  padding 0.8%;
+}
+a:link, a:visited {
+
+color: rgb(253, 217, 14);
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
 }
 
-    .center{
-  position: absolute;
-       margin: 2%;
-    }
-    
-.como{
-    font-size: 1.75em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 80px;
-    letter-spacing: 2.3px;
-    text-indent: 50px;
-    font-family: "Audiowide", sans-serif;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+a:hover, a:active {
+background-color: rgb(109, 36, 36);
 }
-.como{
-  color: rgb(226, 214, 214);
-
-}
-p.thick {
-  font-weight: bold;
-}
-.sol{
-  background-color: rgb(0, 0, 0);
-    padding-top: 1%;
-
-}
-
-h1,h2{
-    color: rgb(233, 8, 8);
-    text-align: center;
-     margin-bottom: 2%;
-}
-
 h1 {
-  background-color: rgba(0, 0, 0, 0.60);;
+ background-color: rgba(0, 0, 0, 0.60);;
 text-shadow: 2px 2px 5px rgb(200, 255, 0);
 font-size: 2em;
 }
-
+h1,h2{
+  color: rgb(233, 8, 8);
+  text-align: center;
+   margin-bottom: 2%;
+}
 h4{
   text-align: center;
   color: blueviolet;
 }
-figure{
-  text-align: center;
-  padding: 1%;
+
+.linha{
+  width: 50%;
+ }
+ 
+.como{
+  font-size: 1.75em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 80px;
+  letter-spacing: 2.3px;
+  text-indent: 50px;
+  font-family: "Audiowide", sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.gif{
+  width: 5%;
+ }
+.float{
+  width: 10%;
+  float: right;
+  margin: 1%
+ }
+.como{
+  color: rgb(226, 214, 214);
 }
 .como{
- padding-top: 1%;
-background-color:  rgba(0, 0, 0, 0.60);
+  padding-top: 1%;
+ background-color:  rgba(0, 0, 0, 0.60);
+ }
+figure{
+  text-align: center;
 }
-  .float{
-   width: 10%;
-   float: right;
-   margin: 1%
-  }
 
 .container{
   text-align: center;
   width:80%;
-  margin: auto;
-  padding: 1%;
-    
-       }
-       .container2{
-        padding: 3%;
-        background-color: #dcdcdc83;
-       }
-       .container3{
-        text-align: center;
-        width:80%;
-        margin: auto;
-        padding: 1%;
-       }
+  margin: auto; 
+ }
+ .logo{
+  text-align: center;
+}
 
-      .img_topo{
-          height: 40%;
-         
-       }
-       .nada{
-        width: 34%;
-        height: 30% ; 
-       }
-       .tudo{
-        width: 40%;
-        height: 30% ; 
-       }
-       .opa{
-        width: 34%;
-        height: 30% ; 
-       }
-       .isso{
-        width: 10%;
-       }
-       div.scrollmenu {
-        overflow: auto;
-        white-space: nowrap;
-       }
-     
-        .img_corpo{
-        width: 60%;
-        margin-top: 2%;
-        margin-bottom: 2%; 
-       }
-       
-      footer{
-        background-image: url("../img/fundoroxo.jpg");
-        padding-top: 1%;
-        margin-top: 1%;
-        padding-bottom: 1%;
-       }
-    footer p{
+.img_logo{
+  width: 5%;
+}
+.img_corpo{
+  width: 60%;
+  margin-top: 2%;
+  margin-bottom: 2%; 
+ }
+ .img_corpo{
+  width: 70%;
+ }
+ .img_topo{
+  height: 40%;
+ 
+}
+.img_topo {
+  width: 50%;    
+ }
+
+ footer p{
+  text-align: center;
+  font-size: 1em;
+   }
+   .center{
+    position: absolute;
+    margin: 2%;
+      }
+   
+    .botao{
+      border: none;
+      padding: 15px 32px;
       text-align: center;
-      font-size: 1em;
-
-       }
+      text-decoration: none;
+      display: inline-block;
+      font-size: 25px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin: 1%;
+      width: 100px;
+      border-radius: 8px;
+    }
+    .img_bola2{
+      width: 10%;
+     }
+    .botao p{
+      text-align: center;
+    }
+    .botao a:link, .botao a:visited{
+      color:#f80000;
+      text-decoration: none;
+      font-weight: bolder;
+      box-shadow: -2px 3px #222, -4px 6px #000;
+    }
     
+    .botton{
+      font-size: 30px;
+      border: 2px solid #7e7e7e;
+      color: rgb(0, 38, 255);
+      background-color: #444;
+      box-shadow: -2px 3px #222, -4px 6px #000;
+     }
+     section{
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    table, th, td {
+      border: 7px double black;
+      border-radius: 10px;
+    }
+    
+    td,th{
       
-a:link, a:visited {
- 
-  color: rgb(253, 217, 14);
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+      padding: 1%;
+      font-family: 'PatuaOne-Regular', cursive; 
+      border: 7px double black;
+      border-radius: 10px;
+      
+    }
+    
+    td{
+      font-size: 1.5em;
+     padding: 2%;
+    }
+    
+    th{
+      font-size: 1.5em;
+    }
+    
+    td:first-child{
+      width: 40%;
+    }
+    
+    td:first-child + td{
+      width: 60%;
+    }
+    
+    audio{
+      width: 75%;
+    }
+    p.thick {
+      font-weight: bold;
+    } 
+       .instagram{
+        width: 20%;
+       }
+    .video{
+      width: 30%;
+    }
+    
+    
+    audio::webkit-media-controls-panel{
+      background-color: blanchedalmond;
+    }
+    
+    .form{
+      box-sizing: border-box;
+     background-color: #00804473;
+     border-radius: 20px;
+     color: white;
+    
+    }
+    
+    input[type=text],input[type=tel],input[type=email], select, textarea {
+      width: 83%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      resize: vertical;
+      margin-top: 2%;
+    }
+    
+    label{
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+    
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+    
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      margin-top: 1%;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+      font-weight: bolder;
+    }
+
+    /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-a:hover, a:active {
-  background-color: rgb(109, 36, 36);
-}
-
-.botao{
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin: 1%;
-  width: 100px;
-  border-radius: 8px;
-}
-
-  .botao a:link, .botao a:visited{
-    color:#f80000;
-    text-decoration: none;
-    font-weight: bolder;
-    box-shadow: -2px 3px #222, -4px 6px #000;
-  }
-  .botao p{
-    text-align: center;
-  }
-  
-
-  .botton{
-    font-size: 30px;
-    border: 2px solid #7e7e7e;
-    color: rgb(0, 38, 255);
-    background-color: #444;
-    box-shadow: -2px 3px #222, -4px 6px #000;
-   }
- 
-
-  section{
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  
- 
-  table{
+    /*altera configuraçâo quando a tela estiver menor que 600px*/
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
     width: 100%;
-    border-collapse: collapse;
+    margin-top: 0;
+  }
+
+  .form{
+    border-radius: 15px;
+    background-color: firebrick;
+  }
+
+  .logo{
     text-align: center;
-   
-
   }
-  .th,td{
-    padding: 1%;
-    border: 2px solid;
 
-  }
- 
-  table,td,th{
-    border: 1px dashed;
-    padding: 1%;
-  }
-  tr:hover {background-color: rgb(255, 43, 6);}
-
-         th{
-           font-family: 1.5em;
-         }
-          table,p{
-            color: rgb(0, 0, 0);
-          }
-         
-          td:first-child{
-            width: 40%;
-          }
-           td:first-child+ td{
-             width: 60%
-           }
-           audio{
-             width: 85%;
-           }
-
-         .gif{
-          width: 5%;
-         }
-         
-         .img_bola2{
-          width: 10%;
-         }
-         .img_topo {
-          width: 50%;    
-         }
-      .img_corpo{
-        width: 70%;
-       }
-   
-        .pitoco{
-          width: 95%;
-        }
-        .mestre{
-          width: 20%;
-        }
-       .correndo{
-        width: 95%;
-       }
-   .instagram{
+  .img_logo{
     width: 20%;
-   }
-.video{
-  width: 30%;
+  } 
+
+  .banner{
+    margin-top: 40%;
+  }
+
+  .descer{
+    margin-top: 50%;
+  }
+
+ 
 }
+/*altera configuraçâo quando a tela estiver maior que 601px*/
+@media screen and (min-width: 601px){
+     header{
+       background-color: rgba(248, 248, 255, 0.829);
+       flex-direction: row;
+       height: 10%;
+     } 
+     
+     .itens_menu{
+      position: absolute;
+      right: 6%;
+      top: 45%;
+      width: 70%;
+  }
+
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+  }
+
+  .img_logo{
+    position: absolute;
+    top: 34%;
+  }
+
+
+}
+
